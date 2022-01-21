@@ -1,0 +1,51 @@
+{
+  "appTitle": "My Awesome Widgets",
+  "@appTitle": {
+    "description": "This is the title of the application"
+  },
+  "welcome": "Welcome {name}",
+  "@welcome": {
+    "description": "The welcome messge on the home page",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendRequests": "{count, plural, =0{You have no new friend request} =1{You have one reuquest} other{You have {count} requests}}",
+  "@friendRequests": {
+    "description": "The number of pending friends requests",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sendMessage": "{sex, select, male{Send him a message} female{Send her a message} other{Send a message}}",
+  "@sendMessage": {
+      "description": "Message on the send button",
+      "placeholders": {
+          "sex": {
+            "type": "String"
+          }
+      }
+  },
+  "discountPrice": "Discount: {price}",
+  "@discountPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency"
+      }
+    }
+  },
+  "shippingDate": "Estimated shipping at {date}",
+  "@shippingDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  }
+}

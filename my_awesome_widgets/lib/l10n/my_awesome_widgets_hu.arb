@@ -1,0 +1,8 @@
+{
+  "appTitle": "My Awesome Widgets",
+  "welcome": "Üdvözöllek {name}",
+  "friendRequests": "{count, plural, =0{Nincs új követési kérésed} =1{Egy új követési kérésed van} other{{count} követési kérésed van}}",
+  "sendMessage": "{sex, select, male{Küldj neki egy üzenetet} female{Küldj neki egy üzenetet} other{Küldj neki egy üzenetet}}",
+  "discountPrice": "Akciós ár: {price}",
+  "shippingDate": "Tervezett szállítási dátum {date}"
+}
